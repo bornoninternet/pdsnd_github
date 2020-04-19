@@ -1,15 +1,14 @@
 ### Date created
-Include the date you created this project and README file.
 19/04/2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+My project lets you analyze bikeshare data for US cities
 
 ### Files used
 Include the files used
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Udacity was my sole inspiration
