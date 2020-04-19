@@ -2,7 +2,7 @@
 19/04/2020
 
 ### Project Title
-Bikeshare Data Analysis by Dominika
+Bikeshare Data Analysis by Dominika Gayny
 
 ### Description
 My project lets you analyze bikeshare data for US cities
