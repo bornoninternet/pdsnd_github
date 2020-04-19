@@ -1,5 +1,6 @@
 """
 This is my Udacity project based on Python and its Pandas package.
+With this code, you can view bikeshare data for US cities by month and day of week.
 """
 
 
