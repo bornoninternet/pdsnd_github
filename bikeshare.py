@@ -1,3 +1,8 @@
+"""
+This is my Udacity project based on Python and its Pandas package.
+"""
+
+
 import time
 import pandas as pd
 import numpy as np
@@ -100,7 +105,7 @@ def load_data(city, month, day):
     # extract month and day of week from Start Time to create new columns
     df['month'] = df['Start Time'].dt.month_name()
     df['day_of_week'] = df['Start Time'].dt.weekday_name
-    
+
     # filter by month if applicable
     if month != 'all':
         # filter by month to create the new dataframe
@@ -109,8 +114,8 @@ def load_data(city, month, day):
     # filter by day of week if applicable
     if day != 'all':
         # filter by day of week to create the new dataframe
-        df = df[df['day_of_week'] == day.title()]   
-        
+        df = df[df['day_of_week'] == day.title()]
+
 
     return df
 
@@ -187,7 +192,7 @@ def user_stats(df):
     # TO DO: Display counts of user types
     user_types = df['User Type'].value_counts()
     print('Breakdown of user types:', user_types)
-    
+
     # TO DO: Display counts of gender
     if 'Gender' in df:
         gender = df['Gender'].value_counts()
@@ -199,9 +204,9 @@ def user_stats(df):
         recent_yob = df['Birth Year'].mean()
         common_yob = df['Birth Year'].mode()[0]
         print('Earliest year of birth:', earliest_yob)
-        print('Most recent year of birth:', recent_yob)    
+        print('Most recent year of birth:', recent_yob)
         print('Most common year of birth:', common_yob)
-    
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
